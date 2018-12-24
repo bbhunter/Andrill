@@ -18,3 +18,7 @@ Andrill is a android mobile application interacting with a back-end API that is 
 | 12   |   SSL Pin: True, Extra Encryption Layer: YES, HTTPs        |  An Android application connecting to a back-end through signed SSL certificate - SSL certificate has Pinned - AES Key hard-coded and encrypted by another key = (hash of Android sign)       | Capturing application traffic + Discovering vulnerabilities in back-end       |
 | 13   |   SSL Pin: True, Extra Encryption Layer: False, HTTPs, Root Detection: True        |   An Android application connecting to a back-end through signed SSL certificate      | Capturing application traffic + Discovering vulnerabilities in back-end      |
 | 14   |   SSL Pin: True, Extra Encryption Layer: False, HTTPs, Root Detection: True, VM Detection: True        |   An Android application connecting to a back-end through signed SSL certificate       | Capturing application traffic + Discovering vulnerabilities in back-end |
+
+
+
+
