@@ -1,18 +1,20 @@
 {
-  "name": "andrill-number1",
+  "name": "andrill-number-1",
   "version": "1.0.0",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "lowdb": "^1.0.0",
+    "md5": "^2.2.1",
+    "nodemon": "^1.18.9",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Yashar Shahinzadeh",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.4",
-    "lowdb": "^1.0.0",
-    "nodemon": "^1.18.9"
-  },
-  "devDependencies": {},
   "description": ""
 }
