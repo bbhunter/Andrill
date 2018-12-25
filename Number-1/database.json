@@ -1,0 +1,38 @@
+{
+  "credentials": [
+    {
+      "id": "1",
+      "display_name": "Super Administrator",
+      "user": "administrator",
+      "pass": "d2edfe932660150888f25ca9cbb00fea",
+      "login_token": null
+    },
+    {
+      "id": "2",
+      "display_name": "Simple User",
+      "user": "alice",
+      "pass": "6384e2b2184bcbf58eccf10ca7a6563c",
+      "login_token": null
+    },
+    {
+      "id": "3",
+      "display_name": "David",
+      "user": "james",
+      "pass": "b4cc344d25a2efe540adbf2678e2304c",
+      "login_token": {
+        "value": "12fa1e80-0848-11e9-954e-b75ed52c976c",
+        "expires": 1545747726
+      }
+    }
+  ],
+  "users_notes": [
+    {
+      "notes": "Public user notes."
+    }
+  ],
+  "admins_secret": [
+    {
+      "notes": "Admins secret notes revealed"
+    }
+  ]
+}
