@@ -20,6 +20,12 @@ function current_time() {
 // using JSON
 app.use(express.json());
 
+
+// index
+app.get('/', function (req, res) {
+    res.end('APK download link: Andrill-1.apk')
+})
+
 // make content-type application/json for the responses
 app.use(function (req, res, next) {
     res.writeHead(200, {
