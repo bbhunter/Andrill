@@ -77,6 +77,9 @@ public class MainActivity extends AppCompatActivity {
 
                     }
 
+                }else{
+                    Toast.makeText(getApplicationContext(),"FAILURE",Toast.LENGTH_SHORT).show();
+
                 }
                 Log.d(TAG, response.body().login_token);
                 Log.d(TAG, response.body().status);

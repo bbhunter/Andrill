@@ -34,7 +34,7 @@ public class UserActivity extends AppCompatActivity {
         note = findViewById(R.id.tv_note);
 
         welcom.setText("Hello dear "+getIntent().getStringExtra("name"));
-        token.setText("your token is: \n\n "+getIntent().getStringExtra("token"));
+//        token.setText("your token is: \n\n "+getIntent().getStringExtra("token"));
 
     }
 
@@ -55,7 +55,7 @@ public class UserActivity extends AppCompatActivity {
             public void onResponse(Call<BackModel> call, Response<BackModel> response) {
                 BackModel backResponse = response.body();
                 if (backResponse.status.equals("success")) {
-                    note.setText("user note is :  "+backResponse.user_notes);
+                    note.setText("user Content :  "+backResponse.user_notes);
 
                 }
 
