@@ -19,4 +19,4 @@ Make the docker image, then run the new container with commands below:
 > docker build -t Andrill_1 .
 > docker run -d -p 8081:8081 --name Andrill_number_1 Andrill_1
 ```
-Browse the server, download the APK, install it and begin the hacking :)
+Browse the server, download the APK, install it and begin the hacking.
