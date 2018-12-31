@@ -12,7 +12,7 @@ The goal is capturing the traffic by some sort of tools, then extracting the adm
 Edit the `dockerfile` and put the server's IP address and the port number (the default value is 8081 which is published by the docker container, you don't have to change the value):
 
 ```
-run sh ./Apk-Source/build-APK-here.sh [IP]:8081
+run sh ./Apk-Source/build-APK-here.sh [Server IP]:8081
 ```
 Make the docker image, then run the new container with commands below:
 ```
