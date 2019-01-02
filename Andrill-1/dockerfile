@@ -16,11 +16,15 @@ COPY . .
 
 EXPOSE 8081
 
+
+RUN sh ./Apk-Source/build-APK-here.sh [Server IP]:8081
+
 RUN useradd -ms /bin/bash node
 RUN chown -R node:node /opt/
 
-USER node
 RUN npm install
 RUN npm install -g nodemon
+
+USER node
 
 CMD ["nodemon", "start"]

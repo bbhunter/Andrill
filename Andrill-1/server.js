@@ -23,7 +23,7 @@ app.use(express.json());
 
 // index
 app.get('/', function (req, res) {
-    res.end('APK download link: Andrill-1.apk')
+    res.end('APK download link: ./andrill-1.apk')
 })
 
 // make content-type application/json for the responses
